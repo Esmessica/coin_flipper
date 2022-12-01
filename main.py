@@ -1,5 +1,5 @@
 from text_representation import Texts
-from money_coins import Coins, AniCoin
+from money_coins import AniCoin
 from decider import Decider
 from reseter import Clear
 from time import sleep
@@ -9,14 +9,12 @@ clear = Clear()
 ani_c = AniCoin().coin_animate()
 decider = Decider()
 text = Texts()
-coins = Coins()
 
 # start of app
 
 ani_c
 sleep(1)
 print(text.title())
-print(coins.many_coins())
 
 clear.cls()
 

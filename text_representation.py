@@ -1,7 +1,8 @@
 from art import * 
 
 class Texts:
-
+    """Text representation of app responces
+    """
     def title(self):
         _title_text = "Flip a coin"
         _f_title_text = _title_text.center(120)
