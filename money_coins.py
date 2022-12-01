@@ -8,9 +8,9 @@ class Clear:
 
 
 class AniCoin:
-    
-    def coin_animate(self):
 
+    def coin_animate(self):
+        """Ascii animation of coin spinning """
         _clr = Clear()
         _coin_1 =(''' 
                         ████████████                 
